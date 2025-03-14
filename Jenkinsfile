@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build application') {
             steps {
-                sh 'g++ -o PES1UG23CS842-1 main.cpp'
+                sh 'g++ -Wrongflag -o PES1UG23CS842-1 main.cpp'
             }
         }
         stage('Test application') {
